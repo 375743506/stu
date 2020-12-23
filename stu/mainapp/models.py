@@ -4,7 +4,8 @@ from django.contrib.auth.models import AbstractUser
 # Create your models here.
 STATE = (
     ('0', '老师'),
-    ('1', '学生')
+    ('1', '学生'),
+    ('2', '管理员')
 )
 
 
